@@ -1,0 +1,55 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - KKBaseComponent (1.0.0)
+  - KKBaseModel (0.1.0):
+    - MJExtension
+  - KKRequest (0.1.0):
+    - AFNetworking
+    - MJExtension
+  - Masonry (1.0.2)
+  - MBProgressHUD (0.9.2)
+  - MBProgressHUDKKHint (0.1.0):
+    - KKBaseComponent
+    - MBProgressHUD (~> 0.9.2)
+  - MJExtension (3.0.13)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+
+DEPENDENCIES:
+  - KKBaseComponent
+  - KKBaseModel
+  - KKRequest
+  - Masonry
+  - MBProgressHUDKKHint
+  - MJExtension
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  KKBaseComponent: d4425c4b2095ec6575767f017c1b30713f41c1e4
+  KKBaseModel: a2c199e6f1569e11562316742110ecfd8db5bee2
+  KKRequest: 9f90c78ef9f2a786c2c21312771e4f987375f74a
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MBProgressHUDKKHint: e640ddea50ef64d4c980ff2cd32e326c4708072d
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+
+PODFILE CHECKSUM: 232c670747ba6f8ef43910b3b0d200aa54628e71
+
+COCOAPODS: 1.0.1
