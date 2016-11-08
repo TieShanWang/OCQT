@@ -26,6 +26,10 @@
 		3C8E9B261DD19A1800A2781E /* WSRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8E9B251DD19A1800A2781E /* WSRoute.m */; };
 		3C8E9B291DD19B3000A2781E /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8E9B281DD19B3000A2781E /* ViewModel.m */; };
 		3C8E9B2C1DD19D3000A2781E /* ViewControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8E9B2B1DD19D3000A2781E /* ViewControllerView.m */; };
+		3C8E9B2F1DD1ADBD00A2781E /* WSRootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8E9B2E1DD1ADBD00A2781E /* WSRootTabBarController.m */; };
+		3C8E9B361DD1AE2900A2781E /* WSDLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8E9B351DD1AE2900A2781E /* WSDLViewController.m */; };
+		3C8E9B391DD1AE3300A2781E /* WSFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8E9B381DD1AE3300A2781E /* WSFindViewController.m */; };
+		3C8E9B3C1DD1AE4000A2781E /* WSMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8E9B3B1DD1AE4000A2781E /* WSMineViewController.m */; };
 		CF5B6EF90AEDFBD245A9A3D2 /* libPods-OCQT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1FA263FFDB6CB092E41D1F /* libPods-OCQT.a */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +69,14 @@
 		3C8E9B281DD19B3000A2781E /* ViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
 		3C8E9B2A1DD19D3000A2781E /* ViewControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerView.h; sourceTree = "<group>"; };
 		3C8E9B2B1DD19D3000A2781E /* ViewControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerView.m; sourceTree = "<group>"; };
+		3C8E9B2D1DD1ADBD00A2781E /* WSRootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSRootTabBarController.h; path = RootTabBar/WSRootTabBarController.h; sourceTree = "<group>"; };
+		3C8E9B2E1DD1ADBD00A2781E /* WSRootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSRootTabBarController.m; path = RootTabBar/WSRootTabBarController.m; sourceTree = "<group>"; };
+		3C8E9B341DD1AE2900A2781E /* WSDLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDLViewController.h; sourceTree = "<group>"; };
+		3C8E9B351DD1AE2900A2781E /* WSDLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDLViewController.m; sourceTree = "<group>"; };
+		3C8E9B371DD1AE3300A2781E /* WSFindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSFindViewController.h; sourceTree = "<group>"; };
+		3C8E9B381DD1AE3300A2781E /* WSFindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSFindViewController.m; sourceTree = "<group>"; };
+		3C8E9B3A1DD1AE4000A2781E /* WSMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMineViewController.h; sourceTree = "<group>"; };
+		3C8E9B3B1DD1AE4000A2781E /* WSMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMineViewController.m; sourceTree = "<group>"; };
 		42248193B3B1A58562910C75 /* Pods-OCQT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCQT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCQT/Pods-OCQT.debug.xcconfig"; sourceTree = "<group>"; };
 		6B1FA263FFDB6CB092E41D1F /* libPods-OCQT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCQT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC93D0F2CFF949D784CDE634 /* Pods-OCQT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCQT.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCQT/Pods-OCQT.release.xcconfig"; sourceTree = "<group>"; };
@@ -150,6 +162,10 @@
 			isa = PBXGroup;
 			children = (
 				3C8E9B071DD0DAD300A2781E /* KKBase */,
+				3C8E9B301DD1ADC200A2781E /* RootTabBar */,
+				3C8E9B311DD1AE0500A2781E /* DownLoad */,
+				3C8E9B321DD1AE0500A2781E /* Find */,
+				3C8E9B331DD1AE0500A2781E /* Mine */,
 				3C8E9B231DD198EA00A2781E /* home */,
 			);
 			path = Function;
@@ -246,6 +262,42 @@
 				3C8E9B281DD19B3000A2781E /* ViewModel.m */,
 			);
 			name = home;
+			sourceTree = "<group>";
+		};
+		3C8E9B301DD1ADC200A2781E /* RootTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				3C8E9B2D1DD1ADBD00A2781E /* WSRootTabBarController.h */,
+				3C8E9B2E1DD1ADBD00A2781E /* WSRootTabBarController.m */,
+			);
+			name = RootTabBar;
+			sourceTree = "<group>";
+		};
+		3C8E9B311DD1AE0500A2781E /* DownLoad */ = {
+			isa = PBXGroup;
+			children = (
+				3C8E9B341DD1AE2900A2781E /* WSDLViewController.h */,
+				3C8E9B351DD1AE2900A2781E /* WSDLViewController.m */,
+			);
+			path = DownLoad;
+			sourceTree = "<group>";
+		};
+		3C8E9B321DD1AE0500A2781E /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				3C8E9B371DD1AE3300A2781E /* WSFindViewController.h */,
+				3C8E9B381DD1AE3300A2781E /* WSFindViewController.m */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		3C8E9B331DD1AE0500A2781E /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				3C8E9B3A1DD1AE4000A2781E /* WSMineViewController.h */,
+				3C8E9B3B1DD1AE4000A2781E /* WSMineViewController.m */,
+			);
+			path = Mine;
 			sourceTree = "<group>";
 		};
 		4A13A9F009EDF165AF114F70 /* Pods */ = {
@@ -382,11 +434,15 @@
 				3C8E9B0A1DD0DAFE00A2781E /* KKBaseViewController.m in Sources */,
 				3C8E9AF21DD0D7CF00A2781E /* OCQT.xcdatamodeld in Sources */,
 				3C8E9B2C1DD19D3000A2781E /* ViewControllerView.m in Sources */,
+				3C8E9B3C1DD1AE4000A2781E /* WSMineViewController.m in Sources */,
 				3C8E9B181DD163ED00A2781E /* KKURLCodeModel.m in Sources */,
 				3C8E9B261DD19A1800A2781E /* WSRoute.m in Sources */,
 				3C8E9B111DD0E34C00A2781E /* KKURLSessionManager.m in Sources */,
+				3C8E9B2F1DD1ADBD00A2781E /* WSRootTabBarController.m in Sources */,
 				3C8E9B291DD19B3000A2781E /* ViewModel.m in Sources */,
 				3C8E9B221DD1761000A2781E /* KKURLSessionManager+Home.m in Sources */,
+				3C8E9B361DD1AE2900A2781E /* WSDLViewController.m in Sources */,
+				3C8E9B391DD1AE3300A2781E /* WSFindViewController.m in Sources */,
 				3C8E9B061DD0D90A00A2781E /* main.m in Sources */,
 				3C8E9B1E1DD1735A00A2781E /* KKSingle.m in Sources */,
 				3C8E9AF11DD0D7CF00A2781E /* AppDelegate.m in Sources */,
