@@ -22,15 +22,6 @@ extern NSString * const KKURLSessionErrorKeyPathCode;
 
 @implementation KKBaseViewController
 
-- (instancetype)init
-{
-    self = [super init];
-    if (self) {
-        self.viewModel = [[KKBaseViewModel alloc]init];
-    }
-    return self;
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSAssert(_viewModel, @"请在此方法前设置viewModel");

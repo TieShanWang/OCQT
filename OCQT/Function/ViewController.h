@@ -6,10 +6,12 @@
 //  Copyright © 2016年 kk. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "KKBaseViewController.h"
 
-@interface ViewController : UIViewController
-
+/**
+ *  首页
+ */
+@interface ViewController : KKBaseViewController
 
 @end
 
