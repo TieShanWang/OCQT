@@ -14,4 +14,6 @@
 
 @interface KKSingle : NSObject<KKSingle>
 
+- (void)subAndSendErrorsFrom:(id<KKSingle>)obj;
+
 @end

@@ -55,4 +55,12 @@
     }
 }
 
+
+- (void)subAndSendErrorsFrom:(id<KKSingle>)obj
+{
+    [obj subErrors:^(id<KKURLCodeProtocol> errors) {
+        [self sendErrors:errors];
+    }];
+}
+
 @end

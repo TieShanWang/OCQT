@@ -8,7 +8,15 @@
 
 #import "KKBaseViewModel.h"
 
+#import "KKURLSessionManager+Home.h"
+
 @implementation KKBaseViewModel
 
+- (void)getData
+{
+    [KKURLSessionManager requestHomeList:^(id<KKSingle>task) {
+        [self subAndSendErrorsFrom:task];
+    }];
+}
 
 @end
