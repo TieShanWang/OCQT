@@ -63,4 +63,19 @@
     }];
 }
 
+
+- (void)subAndSendRequestingFrom:(id<KKSingle>)obj
+{
+    [obj subRequesting:^(BOOL requsting) {
+        [self sendRequesting:requsting];
+    }];
+}
+
+- (void)subAndSendDataFrom:(id<KKSingle>)obj
+{
+    [obj subData:^(id value) {
+        [self sendData:value];
+    }];
+}
+
 @end

@@ -12,10 +12,19 @@
 
 @implementation KKBaseViewModel
 
-- (void)getData
+- (void)subAndSendRequestingFrom:(id<KKSingle>)obj
 {
-    [KKURLSessionManager requestHomeList:^(id<KKSingle>task) {
-        [self subAndSendErrorsFrom:task];
+    [obj subRequesting:^(BOOL requsting) {
+        self.isRequesting = requsting;
+        [self sendRequesting:requsting];
+    }];
+}
+
+- (void)subAndSendDataFrom:(id<KKSingle>)obj
+{
+    [obj subData:^(id value) {
+        self.sourceData = value;
+        [self sendData:value];
     }];
 }
 

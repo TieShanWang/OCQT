@@ -16,4 +16,8 @@
 
 - (void)subAndSendErrorsFrom:(id<KKSingle>)obj;
 
+- (void)subAndSendRequestingFrom:(id<KKSingle>)obj;
+
+- (void)subAndSendDataFrom:(id<KKSingle>)obj;
+
 @end

@@ -32,6 +32,16 @@ NSString * const KKURLSessionMethodPOST;
  */
 @interface KKURLSessionManager : NSObject
 
+/**
+ *  网络请求
+ *
+ *  @param path       URL path
+ *  @param parameters request parameters
+ *  @param method     GET or POST
+ *  @param keyPath    返回数据解析的路径
+ *  @param className  返回数据解析的类
+ *  @param configure  配置此次请求任务
+ */
 + (void)requestPath:(NSString *)path
          parameters:(NSDictionary *)parameters
              method:(NSString *)method
